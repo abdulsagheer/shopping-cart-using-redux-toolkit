@@ -1,9 +1,12 @@
 import "./App.css";
+import CartContainer from "./components/cart/CartContainer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Shopping Cart</h1>
+      <Navbar />
+      <CartContainer />
     </div>
   );
 }
